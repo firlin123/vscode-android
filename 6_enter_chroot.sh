@@ -3,6 +3,7 @@
 # Download chroot_bash if it doesn't exist
 if [ ! -f '/data/data/com.termux/files/usr/bin/chroot_bash' ]; then
     wget -O '/data/data/com.termux/files/usr/bin/chroot_bash' https://github.com/firlin123/vscode-android/releases/download/chroot_bash_v1.0.0/chroot_bash
+    chmod 755 /data/data/com.termux/files/usr/bin/chroot_bash
 fi
 
 # Clean environment
